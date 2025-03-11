@@ -13,7 +13,7 @@ SelectionSort(array, n)
             if array[j] < array[min_index]
                 min_index = j
         if min_index ≠ i
-            swap(array[i], array[min_index])
+            SWAP(array[i], array[min_index])
     return array
 END
 ```
